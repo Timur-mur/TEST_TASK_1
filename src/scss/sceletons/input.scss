@@ -1,0 +1,9 @@
+@import "../variables.scss";
+
+.input{
+  display: flex;
+  border-radius: $border-radius;
+  background: $background-inventory-color;
+  width: 785px;
+  height: 72px;
+}

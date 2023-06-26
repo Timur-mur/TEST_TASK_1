@@ -1,0 +1,10 @@
+@import "../reset";
+@import "../variables";
+
+
+.card{
+  border-radius: $border-radius;
+  background: $background-inventory-color;
+  width: 236px;
+  height: 500px;
+}

@@ -1,0 +1,21 @@
+@import "../reset.scss";
+@import "../variables.scss";
+
+.inventory-item__draggable{
+  .inventory-item__count{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 16px;
+    height: 16px;
+    flex-shrink: 0;
+    border: 1px solid $border-color;
+    border-radius: 6px 0 0 0;
+    color: $count-color;
+  }
+  span{
+  }
+}

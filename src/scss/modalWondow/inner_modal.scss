@@ -1,0 +1,27 @@
+@import "../reset.scss";
+@import "../variables.scss";
+
+.modal{
+  border: 1px solid $border-color;
+  border-radius: 0 $border-radius $border-radius 0;
+  max-width: 50%;
+  height: 100%;
+  .modal__body{
+
+    .modal__content{
+
+      .modal__close{
+
+      }
+      .modal__title{
+
+      }
+      .modal__text{
+
+      }
+      .modal__type{
+
+      }
+    }
+  }
+}

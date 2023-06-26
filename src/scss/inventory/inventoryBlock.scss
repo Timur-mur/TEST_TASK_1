@@ -1,0 +1,24 @@
+@import "src/scss/reset.scss";
+@import "src/scss/variables.scss";
+
+
+.inventory-block{
+  border-radius: $border-radius;
+  border-collapse: collapse;
+  max-width: 527px;
+  display: flex;
+  flex-wrap: wrap;
+  overflow: hidden;
+
+  .inventory-block__droppable{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background: $background-inventory-color;
+    border: 1px solid $border-color;
+    width: 105px;
+    height: 100px;
+  }
+}
