@@ -1,6 +1,7 @@
 @import "../variables.scss";
 
-.input{
+.input__box{
+  position: relative;
   display: flex;
   border-radius: $border-radius;
   background: $background-inventory-color;

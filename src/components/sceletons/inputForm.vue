@@ -1,12 +1,16 @@
 <template>
-  <div class="input">
+  <div class="input__box">
+    <close-button/>
     <input>
   </div>
 </template>
 
 <script>
+import CloseButton from "@/components/UI/closeButton.vue";
+
 export default {
-  name: "inputForm"
+  name: "inputForm",
+  components: {CloseButton}
 }
 </script>
 

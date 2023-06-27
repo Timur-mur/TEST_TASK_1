@@ -1,8 +1,8 @@
-@import "src/scss/reset.scss";
 @import "src/scss/variables.scss";
 
 
 .inventory-block{
+  position: relative;
   border-radius: $border-radius;
   border-collapse: collapse;
   max-width: 527px;

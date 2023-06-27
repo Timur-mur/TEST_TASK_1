@@ -10,10 +10,11 @@
 import Card from "@/components/sceletons/card.vue";
 import InputForm from "@/components/sceletons/inputForm.vue";
 import InventoryBlock from "@/components/inventory/inventoryBlock.vue";
+import ModalWindow from "@/components/modalWindow/modalWindow.vue";
 
 export default {
   name: "main",
-  components: { InventoryBlock, InputForm, Card }
+  components: {ModalWindow, InventoryBlock, InputForm, Card }
 }
 </script>
 

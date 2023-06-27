@@ -1,5 +1,7 @@
 <template>
-
+  <div class="modal__button-cancel">
+    <button>Отмена</button>
+  </div>
 </template>
 
 <script>
